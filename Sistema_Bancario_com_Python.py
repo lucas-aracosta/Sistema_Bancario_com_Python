@@ -25,7 +25,6 @@ while True:
         if valor > 0:
             saldo += valor
             extrato += f"{datetime.datetime.now():%d/%m/%Y %H:%M} - Depósito: R$ {valor:.2f}\n"
-            #extrato += f"Depósito: R$ {valor:.2f}\n"
 
         else:
             print("Operação falhou! O valor informado é inválido.")
